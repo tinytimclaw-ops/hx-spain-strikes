@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #232323;
+  background: #ffffff;
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Header */
+.header {
+  background: #542E91;
+  padding: 24px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  margin: 0;
+}
+
+.tagline {
+  font-size: 16px;
+  color: #FDD506;
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Hero */
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(135deg, #542E91 0%, #432574 100%);
+  padding: 80px 0;
+}
+
+.hero-overlay {
+  width: 100%;
+}
+
+.hero-title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.hero-subtitle {
+  font-size: 22px;
+  color: #FDD506;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+/* Article Container */
+.article-container {
+  padding: 48px 0;
+  max-width: 728px;
+  margin: 0 auto;
+}
+
+/* Content Sections */
+.content-section {
+  margin-bottom: 48px;
+}
+
+.content-section h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #542E91;
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.content-section h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #432574;
+  line-height: 1.2;
+  margin: 24px 0 16px;
+}
+
+.content-section h4 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #232323;
+  line-height: 1.2;
+  margin: 16px 0 8px;
+}
+
+.content-section p {
+  margin-bottom: 16px;
+}
+
+.body-large {
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: #232323;
+}
+
+.content-section ul {
+  margin: 16px 0 16px 24px;
+}
+
+.content-section li {
+  margin-bottom: 8px;
+}
+
+.content-section a {
+  color: #542E91;
+  text-decoration: underline;
+  transition: color 0.2s ease;
+}
+
+.content-section a:hover {
+  color: #432574;
+}
+
+/* Alert Box */
+.alert-box {
+  display: flex;
+  gap: 16px;
+  padding: 24px;
+  background: #FFF4E6;
+  border-left: 4px solid #FDD506;
+  border-radius: 8px;
+  margin-bottom: 48px;
+}
+
+.alert-icon {
+  font-size: 32px;
+  flex-shrink: 0;
+}
+
+.alert-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #232323;
+  margin: 0 0 8px 0;
+}
+
+.alert-content p {
+  margin: 0;
+  color: #232323;
+}
+
+/* Airport Grid */
+.airport-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+
+.airport-card {
+  padding: 20px;
+  background: #EEEAF4;
+  border-radius: 8px;
+  border: 1px solid #D4CBE3;
+}
+
+.airport-card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #542E91;
+  margin: 0 0 8px 0;
+}
+
+.airport-card p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* Info Box */
+.info-box {
+  padding: 24px;
+  background: #F8F8F8;
+  border-radius: 8px;
+  border: 1px solid #E0E0E0;
+  margin: 24px 0;
+}
+
+.info-box h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #542E91;
+  margin: 0 0 16px 0;
+}
+
+.info-box ul {
+  margin: 0 0 0 24px;
+}
+
+.info-box li {
+  margin-bottom: 8px;
+}
+
+/* Tips Section */
+.tips-section {
+  background: #F9F9F9;
+  padding: 48px;
+  border-radius: 12px;
+  margin: 48px -48px;
+}
+
+.tip-card {
+  display: flex;
+  gap: 24px;
+  padding: 24px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  margin-bottom: 24px;
+}
+
+.tip-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  background: #542E91;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.tip-content h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #542E91;
+  margin: 0 0 8px 0;
+}
+
+.tip-content p {
+  margin: 0;
+  color: #232323;
+}
+
+.tip-content a {
+  color: #542E91;
+  text-decoration: underline;
+}
+
+/* Compensation Table */
+.compensation-table {
+  margin: 24px 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #E0E0E0;
+}
+
+.table-row {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-bottom: 1px solid #E0E0E0;
+}
+
+.table-row:last-child {
+  border-bottom: none;
+}
+
+.table-cell {
+  padding: 16px 24px;
+  background: #fff;
+}
+
+.table-cell:first-child {
+  font-weight: 600;
+  background: #F8F8F8;
+}
+
+.table-cell:last-child {
+  font-weight: 700;
+  color: #542E91;
+  text-align: right;
+}
+
+/* Sources Section */
+.sources-section {
+  padding-top: 48px;
+  border-top: 2px solid #E0E0E0;
+}
+
+.sources-section h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #666;
+  margin: 0 0 16px 0;
+}
+
+.sources-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sources-list li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.sources-list a {
+  color: #666;
+  text-decoration: underline;
+  font-size: 14px;
+}
+
+.sources-list a:hover {
+  color: #542E91;
+}
+
+/* Footer */
+.footer {
+  background: #232323;
+  color: #fff;
+  padding: 48px 0;
+  text-align: center;
+}
+
+.footer p {
+  margin: 0 0 8px 0;
+  font-size: 16px;
+}
+
+.footer-tagline {
+  color: #FDD506;
+  font-weight: 600;
+}
+
+/* Mobile Responsive */
+@media (max-width: 767px) {
+  .hero-title {
+    font-size: 32px;
+  }
+
+  .hero-subtitle {
+    font-size: 20px;
+  }
+
+  .content-section h2 {
+    font-size: 24px;
+  }
+
+  .content-section h3 {
+    font-size: 20px;
+  }
+
+  .body-large {
+    font-size: 20px;
+  }
+
+  .airport-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .tips-section {
+    margin: 48px -24px;
+    padding: 24px;
+  }
+
+  .tip-card {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .compensation-table {
+    font-size: 16px;
+  }
+
+  .table-cell {
+    padding: 12px 16px;
+  }
+
+  .article-container {
+    padding: 32px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .airport-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 992px) {
+  .airport-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
